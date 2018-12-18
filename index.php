@@ -8,7 +8,7 @@ class Report extends CI_Controller {
 		$this->load->model ( 'report_model' );
 		$this->load->model ( 'common_model' );
                 $this->table = 'abc_student_rfid_mapping';
-		
+		//Test comment
 		//common_settings ();
 	}
 	public function index() {
